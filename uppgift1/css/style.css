@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: saker;
+  src: url(SakerSansMedium.ttf);
+}
+@font-face {
+  font-family: saker;
+  src: url(SakerSansBold.ttf);
+  font-weight: bold;
+}
+html body {
+  font-size: 62.5%;
+  height: 100%;
+  background-color: #e8e8e8;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+$bgcolor: lightgrey;
+$textcolor: darkblue;
+
+$fontsize: 1.2rem;
+
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
