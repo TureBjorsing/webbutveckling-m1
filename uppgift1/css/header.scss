@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+	font-size: 1.2rem;
+	text-align:left;
+	height: 60px;
+	background-image: url("../images/bgImg.png");
+	background-repeat:repeat;
+	color: white;
+	position: relative;
+
+    h1 {
+        display:inline-block;
+	    font-family: saker, Arial;
+	    letter-spacing: 3px;
+	    font-size: 2.4rem;
+	    margin-top: 1.8rem;
+	    margin-left: 2.5rem;
+    }
+
+    img {
+        float:left;
+	    margin-top: 10px;
+	    margin-left: 50px;
+    }
+
+    input[type="text"],header input[type="password"] {
+        margin-top: 0.5em;
+	    margin-left: 1.5em;
+	    font-size: 1.1rem;
+    }
+
+    input[type="submit"] {
+        margin-top: 0.1em;
+	    border: 0;
+	    background: rgba(0, 0, 0, 0.1);
+	    border-radius: 4px;
+	    color: white;
+        -webkit-appearance: none;
+        padding: 2px;
+	    font-size: 1.1rem;
+    }
+
+    form {
+        display:inline;
+	    margin-bottom: 0.7rem;
+    }
+
+    nav {
+        position: relative;
+        display:inline;
+        margin-left: 2rem;
+
+        ul {
+            list-style-type:none;
+            display:inline;
+        }
+
+        li {
+            margin-left: 1rem;
+	        display:inline;
+        }
+    }
+
+    a {
+        display:inline-block;
+        padding: 2px;
+        border-radius: 4px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+        background-color:black;
+
+        &:hover {
+            background-color: gray;
+            color: #ffffff;
+        }
+    }
+
+    input[type="submit"]:hover {
+        background-color: gray;
+        color: #ffffff;
+    }
+
+    #loggOutButton {
+        border: 1px solid white;
+        position:absolute;
+        right:8px;
+        top:8px;
+    }
+}
+
+input.fontSize{
+	font-size: 1.2rem;
+	padding:0;
+}

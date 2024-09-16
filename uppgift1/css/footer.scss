@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height: 30px;
+	background-image: url("../images/bgImg.png");
+	color: white;
+	font-size: 1.2rem;
+
+    #footerRight {
+        float:right;
+        padding: 5px;
+    }
+
+    #footerLeft {
+        float:left;
+        padding: 5px;
+    }
+}
